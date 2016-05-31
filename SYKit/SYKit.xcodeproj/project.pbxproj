@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F81FB33B1CFDA38800BADE48 /* NSObject+LogTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F81FB33A1CFDA38800BADE48 /* NSObject+LogTest.m */; };
+		F81FB36A1CFDA87E00BADE48 /* NSObject+LogTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F81FB3691CFDA87E00BADE48 /* NSObject+LogTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		F81FB32D1CFDA37900BADE48 /* libSYKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSYKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F81FB3391CFDA38800BADE48 /* NSObject+LogTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+LogTest.h"; path = "../../NSObject+LogTest.h"; sourceTree = "<group>"; };
-		F81FB33A1CFDA38800BADE48 /* NSObject+LogTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LogTest.m"; path = "../../NSObject+LogTest.m"; sourceTree = "<group>"; };
+		F81FB3681CFDA87E00BADE48 /* NSObject+LogTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LogTest.h"; sourceTree = "<group>"; };
+		F81FB3691CFDA87E00BADE48 /* NSObject+LogTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LogTest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 		F81FB32F1CFDA37900BADE48 /* SYKit */ = {
 			isa = PBXGroup;
 			children = (
-				F81FB3391CFDA38800BADE48 /* NSObject+LogTest.h */,
-				F81FB33A1CFDA38800BADE48 /* NSObject+LogTest.m */,
+				F81FB3681CFDA87E00BADE48 /* NSObject+LogTest.h */,
+				F81FB3691CFDA87E00BADE48 /* NSObject+LogTest.m */,
 			);
 			path = SYKit;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F81FB33B1CFDA38800BADE48 /* NSObject+LogTest.m in Sources */,
+				F81FB36A1CFDA87E00BADE48 /* NSObject+LogTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +244,7 @@
 				F81FB3381CFDA37900BADE48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
