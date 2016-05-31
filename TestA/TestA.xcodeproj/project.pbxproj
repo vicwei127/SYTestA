@@ -16,6 +16,16 @@
 		F81FB35B1CFDA71D00BADE48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81FB3591CFDA71D00BADE48 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F81FB3661CFDA86300BADE48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F81FB3621CFDA86200BADE48 /* SYKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F81FB32D1CFDA37900BADE48;
+			remoteInfo = SYKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		F81FB3451CFDA71D00BADE48 /* TestA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81FB3491CFDA71D00BADE48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -28,6 +38,7 @@
 		F81FB3571CFDA71D00BADE48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F81FB35A1CFDA71D00BADE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F81FB35C1CFDA71D00BADE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F81FB3621CFDA86200BADE48 /* SYKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SYKit.xcodeproj; path = ../../SYKit/SYKit/SYKit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,7 @@
 		F81FB3471CFDA71D00BADE48 /* TestA */ = {
 			isa = PBXGroup;
 			children = (
+				F81FB3621CFDA86200BADE48 /* SYKit.xcodeproj */,
 				F81FB34B1CFDA71D00BADE48 /* AppDelegate.h */,
 				F81FB34C1CFDA71D00BADE48 /* AppDelegate.m */,
 				F81FB34E1CFDA71D00BADE48 /* ViewController.h */,
@@ -80,6 +92,14 @@
 				F81FB3491CFDA71D00BADE48 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F81FB3631CFDA86200BADE48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F81FB3671CFDA86300BADE48 /* libSYKit.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,12 +147,28 @@
 			mainGroup = F81FB33C1CFDA71D00BADE48;
 			productRefGroup = F81FB3461CFDA71D00BADE48 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F81FB3631CFDA86200BADE48 /* Products */;
+					ProjectRef = F81FB3621CFDA86200BADE48 /* SYKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F81FB3441CFDA71D00BADE48 /* TestA */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F81FB3671CFDA86300BADE48 /* libSYKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSYKit.a;
+			remoteRef = F81FB3661CFDA86300BADE48 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F81FB3431CFDA71D00BADE48 /* Resources */ = {
