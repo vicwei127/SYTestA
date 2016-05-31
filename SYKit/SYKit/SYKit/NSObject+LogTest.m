@@ -12,7 +12,7 @@
 
 - (void)nl_testLog
 {
-    NSLog(@"123");
+    NSLog(@"123456456");
 }
 
 @end
